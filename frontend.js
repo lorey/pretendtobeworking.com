@@ -2,6 +2,27 @@
 		jQuery(document).ready(function() {
 
 		
+		// Call this to change the task text
+		function changeTaskText(text){
+			$('#taskText').text(text);
+		}
+		
+		// Call this the first time the user clicks the button.
+		function firstTaskIsBeingCalled(){
+			
+		}
+		
+		// Always call this when a next Task is being called. We might want animations etc
+		function nextTaskIsBeingCalled(){
+			
+			
+		}
+		
+		$('#buttonStartNext').click(function(){
+			
+			
+		});
+		
 		function setCookie(cname, cvalue, exdays) {
 			var d = new Date();
 			d.setTime(d.getTime() + (exdays*24*60*60*1000));
