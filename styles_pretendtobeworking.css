@@ -1,6 +1,7 @@
 
 body{
-	background-color: #FAFAFA !important;
+	background-image: url('bg.jpg');
+    background-size: 100% auto;
 	font-family: 'Roboto', sans-serif !important;
 }
 
@@ -61,6 +62,9 @@ body{
 	color: #2c2929;
 }
 
+.textColorLight{
+    color: #ccc;
+}
 
 .padding-top450 {
 		padding-top:450px;
