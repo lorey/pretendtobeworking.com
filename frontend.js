@@ -1,6 +1,25 @@
 	
 jQuery(document).ready(function() {
 
+    var tasks = [
+        "Write yourself an e-mail. Don't forget to include the words &quot;urgent&quot; and &quot;ASAP&quot;",
+        "Write a letter to yourself using your company address. Make sure to mark it confidential.",
+        "Read an ebook. To pretend to be working just make sure to scribble something from time to time.",
+        "Check out what's on the menu for today or what you're going to eat for lunch.",
+        "Discuss the lunch menu with your colleagues.",
+        "Just find a job you like and you'll never have to pretend you're working ever again.",
+        "Increase the time until your screensaver activates. This way, co-workers won't notice longer breaks.",
+        "Take a pile of paper and leave in a hurry.",
+        "Complain to your colleagues about the incredibly high number of emails in your inbox.",
+        "Complain to your colleagues about questions from customers.",
+        "Complain to your colleagues about the internet speed in your company.",
+        "Complain to your colleagues about other departments.",
+        "Convince a co-worker to do your work by pretending to have familiy issues at the moment.",
+        "Convince a co-worker to do your work by telling him/her that your boss stopped by and said it's very urgent.",
+        "Say &quot;How am I supposed to get this much work done until tomorrow?&quot;",
+        "Frown while reading this text. Shake your head as a bonus."
+    ];
+
     // Call this to change the task text
     function changeTaskText(text){
         $('#taskText').text(text);
