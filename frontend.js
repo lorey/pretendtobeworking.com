@@ -52,6 +52,8 @@ jQuery(document).ready(function() {
 			// First task
 			firstTaskIsBeingCalled();
 		}
+        var randomIndex = Math.round(Math.random() * (tasks.length - 1));
+        changeTaskText(tasks[randomIndex]);
     });
 
     function setCookie(cname, cvalue, exdays) {
