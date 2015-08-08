@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
         "Complain to your colleagues about questions from customers.",
         "Complain to your colleagues about the internet speed in your company.",
         "Complain to your colleagues about other departments.",
-        "Convince a co-worker to do your work by pretending to have familiy issues at the moment.",
+        "Convince a co-worker to do your work by pretending to have family issues at the moment.",
         "Convince a co-worker to do your work by telling him/her that your boss stopped by and said it's very urgent.",
         "Say &quot;How am I supposed to get this much work done until tomorrow?&quot;",
         "Frown while reading this text. Shake your head as a bonus.",
@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
         "Pretend to be talking to a customer on the phone. Make sure to sound like it's going really well and make your colleagues notice.",
         "Make up a project and start telling everyone about it.",
         "Inform yourself about how your company is tracking you (internet, telephone) and make sure to avoid these mechanisms.",
-        "Install or enable a virtual desktop to be able to switch to netral content fast.",
+        "Install or enable a virtual desktop to be able to switch to neutral content fast.",
         "Move your monitor so that it's not visible to others. Say you have to do this, because of reflections and sunlight.",
         "Ask others in your team for their progress. Say the reason is that you're dependent on them.",
         "Instead of doing a phone call, just walk to your colleague next time. This is more relaxing and takes more time.",
@@ -56,6 +56,8 @@ jQuery(document).ready(function() {
     ];
 
 	var timesGotTask = 0;
+
+    var indexesDisplayed = [];
 
     // Call this to change the task text
     function changeTaskText(text){
@@ -88,8 +90,18 @@ jQuery(document).ready(function() {
 			// First task
 			firstTaskIsBeingCalled();
 		}
+
         var randomIndex = Math.floor(Math.random() * tasks.length);
-        changeTaskText(tasks[randomIndex]);
+        if (indexesDisplayed.length != tasks.length) {
+            while ($.inArray(randomIndex, indexesDisplayed) > -1) {
+                randomIndex = Math.floor(Math.random() * tasks.length);
+            }
+            indexesDisplayed.push(randomIndex);
+
+            changeTaskText(tasks[randomIndex]);
+        } else {
+            changeTaskText("We have no more tasks for you. You should probably start working now :)");
+        }
     });
 
     function setCookie(cname, cvalue, exdays) {
