@@ -16,7 +16,14 @@ jQuery(document).ready(function() {
         "Convince a co-worker to do your work by pretending to have familiy issues at the moment.",
         "Convince a co-worker to do your work by telling him/her that your boss stopped by and said it's very urgent.",
         "Say &quot;How am I supposed to get this much work done until tomorrow?&quot;",
-        "Frown while reading this text. Shake your head as a bonus."
+        "Frown while reading this text. Shake your head as a bonus.",
+        "Breathe deeply as if your doing challenging work.",
+        "Scratch your head and read this sentence several times.",
+        "Drop a pencil.",
+        "Spill your coffee.",
+        "Drop a pile of papers. Collect and sort them neatly afterwards.",
+        "Clean up your desk.",
+        "Check if your phone has a fake call function or download an app that does this. This will keep you out of trouble if someone catches you."
     ];
 
 	var timesGotTask = 0;
@@ -52,7 +59,7 @@ jQuery(document).ready(function() {
 			// First task
 			firstTaskIsBeingCalled();
 		}
-        var randomIndex = Math.round(Math.random() * (tasks.length - 1));
+        var randomIndex = Math.floor(Math.random() * tasks.length);
         changeTaskText(tasks[randomIndex]);
     });
 
