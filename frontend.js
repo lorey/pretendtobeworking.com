@@ -23,7 +23,26 @@ jQuery(document).ready(function() {
         "Spill your coffee.",
         "Drop a pile of papers. Collect and sort them neatly afterwards.",
         "Clean up your desk.",
-        "Check if your phone has a fake call function or download an app that does this. This will keep you out of trouble if someone catches you."
+        "Check if your phone has a fake call function or download an app that does this. This will keep you out of trouble if someone catches you.",
+        "Get a new coffee.",
+        "Ask your boss a question. Make sure not to sound incompetent but rather let him decide on something. This will make him feel good.",
+        "Open up a spreadsheet. Choose some row titles and add =RAND() to fill it with random numbers.",
+        "Open up a document and add lorem ipsum or copy some random text into it.",
+        "Open a presentation from the last meeting.",
+        "Open your company's website. If asked, tell that a customer complained about it being offline.",
+        "Open the website of a customer. If asked, tell that you're looking for a specific contact.",
+        "Open the website of a competitor. If asked, tell that you're keeping an eye on them.",
+        "Open up a terminal. View some log file. If asked, say that you're monitoring something.",
+        "Open up some work. Do a screenshot with the print button. Set this file as your desktop background.",
+        "Always have a block with unreadable notes in front of you. Think of diagrams, flow charts, screen mockups...",
+        "Open a company pdf. Find the corporate identity guidelines and tell others you're looking for the exact company color",
+        "Walk to the printer, wait some time, and walk back. Complain to your colleagues that the printer ate your document.",
+        "Fill up the pens at your desk.",
+        "Fill up the paper at your desk.",
+        "Clean your keyboard. Pretend that some key isn't working anymore.",
+        "Pretend to be talking to a customer on the phone. Make sure to sound like it's going really well and make your colleagues notice.",
+        "Make up a project and start telling everyone about it.",
+        "Inform yourself about how your company is tracking you (internet, telephone) and make sure to avoid these mechanisms."
     ];
 
 	var timesGotTask = 0;
