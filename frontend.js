@@ -1,6 +1,5 @@
 	
 jQuery(document).ready(function() {
-
     var tasks = [
         "Write yourself an e-mail. Don't forget to include the words &quot;urgent&quot; and &quot;ASAP&quot;",
         "Write a letter to yourself using your company address. Make sure to mark it confidential.",
@@ -20,25 +19,39 @@ jQuery(document).ready(function() {
         "Frown while reading this text. Shake your head as a bonus."
     ];
 
+	var timesGotTask = 0;
+
     // Call this to change the task text
     function changeTaskText(text){
-        $('#taskText').text(text);
+		$( "#taskText" ).fadeOut( "slow", function() {
+			$('#taskText').text(text);
+			$( "#taskText" ).fadeIn( "slow", function() {
+			// Animation complete.
+			});
+		});
     }
 
     // Call this the first time the user clicks the button.
     function firstTaskIsBeingCalled(){
-
+		changeButtonText("Next");
     }
 
     // Always call this when a next Task is being called. We might want animations etc
     function nextTaskIsBeingCalled(){
-
+		
 
     }
+	
+	function changeButtonText(text){
+		$('#buttonStartNext').text(text);
+	}
 
+	// Click on the start next button
     $('#buttonStartNext').click(function(){
-
-
+		if(timesGotTask === 0){
+			// First task
+			firstTaskIsBeingCalled();
+		}
     });
 
     function setCookie(cname, cvalue, exdays) {
