@@ -1,7 +1,7 @@
 	
 jQuery(document).ready(function() {
     var tasks = [
-        "Write yourself an e-mail. Don't forget to include the words &quot;urgent&quot; and &quot;ASAP&quot;",
+        "Write yourself an e-mail. Don't forget to include the words \"urgent\" and \"ASAP\"",
         "Write a letter to yourself using your company address. Make sure to mark it confidential.",
         "Read an ebook. To pretend to be working just make sure to scribble something from time to time.",
         "Check out what's on the menu for today or what you're going to eat for lunch.",
@@ -15,7 +15,7 @@ jQuery(document).ready(function() {
         "Complain to your colleagues about other departments.",
         "Convince a co-worker to do your work by pretending to have family issues at the moment.",
         "Convince a co-worker to do your work by telling him/her that your boss stopped by and said it's very urgent.",
-        "Say &quot;How am I supposed to get this much work done until tomorrow?&quot;",
+        "Say \"How am I supposed to get this much work done until tomorrow?\"",
         "Frown while reading this text. Shake your head as a bonus.",
         "Breathe deeply as if your doing challenging work.",
         "Scratch your head and read this sentence several times.",
