@@ -84,6 +84,10 @@ jQuery(document).ready(function() {
 		$('#buttonStartNext').text(text);
 	}
 
+    function removeButton(){
+        $('#buttonStartNext').hide();
+    }
+
 	// Click on the start next button
     $('#buttonStartNext').click(function(){
 		if(timesGotTask === 0){
@@ -101,6 +105,7 @@ jQuery(document).ready(function() {
             changeTaskText(tasks[randomIndex]);
         } else {
             changeTaskText("We have no more tasks for you. You should probably start working now :)");
+            removeButton();
         }
     });
 
