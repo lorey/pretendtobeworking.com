@@ -1,9 +1,15 @@
 	
 jQuery(document).ready(function() {
-
+	var timesGotTask = 0;
+	
     // Call this to change the task text
     function changeTaskText(text){
-        $('#taskText').text(text);
+		$( "#taskText" ).fadeOut( "slow", function() {
+			$('#taskText').text(text);
+			$( "#taskText" ).fadeIn( "slow", function() {
+			// Animation complete.
+			});
+		});
     }
 
     // Call this the first time the user clicks the button.
@@ -13,7 +19,7 @@ jQuery(document).ready(function() {
 
     // Always call this when a next Task is being called. We might want animations etc
     function nextTaskIsBeingCalled(){
-
+		
 
     }
 	
@@ -21,8 +27,12 @@ jQuery(document).ready(function() {
 		$('#buttonStartNext').text(text);
 	}
 
+	// Click on the start next button
     $('#buttonStartNext').click(function(){
-
+		if(timesGotTask === 0){
+			// First task
+			firstTaskIsBeingCalled();
+		}
     });
 
     function setCookie(cname, cvalue, exdays) {
