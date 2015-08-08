@@ -28,6 +28,14 @@ body{
 	padding: 5%;
 }
 
+.footer{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+	position: fixed;
+	bottom: 0px;
+}
+
 .buttonDarkGrey{
 	color: #FAFAFA !important;
 	background-color: #2c2929 !important;
@@ -87,14 +95,13 @@ body{
 }
 
 .spacer {
-		height: 75px;
+		height: 50px;
 		width: 100%;
 }
 
 .spacerSmall{
-		height: 10px;
+		height: 25px;
 		width: 100%;
-
 }
 		
 .divider {

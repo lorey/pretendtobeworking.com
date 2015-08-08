@@ -8,7 +8,7 @@ jQuery(document).ready(function() {
 
     // Call this the first time the user clicks the button.
     function firstTaskIsBeingCalled(){
-
+		changeButtonText("Next");
     }
 
     // Always call this when a next Task is being called. We might want animations etc
@@ -16,9 +16,12 @@ jQuery(document).ready(function() {
 
 
     }
+	
+	function changeButtonText(text){
+		$('#buttonStartNext').text(text);
+	}
 
     $('#buttonStartNext').click(function(){
-
 
     });
 
