@@ -1,0 +1,952 @@
+
+body{
+	background-color: #f7a813 !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.containerButtonAddQuestion{
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+.containerVotes{
+	width: 10%;
+	text-align: center;
+	float: left;
+}
+
+.borderRight{
+	border-right: 2px solid #e5e5e4;
+}
+
+.borderLeft{
+	border-left: 2px solid #e5e5e4;
+}
+
+.borderBottom{
+	border-bottom: 2px solid #e5e5e4;
+}
+
+.buttonPlus{
+	width: 10%!important;
+	font-size: 200%;
+	margin-top: 5px;
+	color: #ffffff;
+	background-color: #ec6b17;
+	float: right;
+}
+
+.buttonPlus:hover{
+	color: #ffffff !important;
+	background-color: #ec6b17;
+}
+
+.containerTextInputs{
+	padding-top: 5px;
+	width: 88%;
+	float: left;
+}
+
+
+.containerAnswers{
+	width: 100%;
+	height: auto;
+}
+
+.containerContent{
+	height: auto;
+	width: 90%;
+	float: right;
+	padding: 5px;
+}
+
+.containerQuestion{
+	width: 90%;
+	max-width: 600px;
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 5px;
+	background-color: #f3f3f2;
+	color: #515151;
+	border-bottom-right-radius : 10px;
+	border-bottom-left-radius : 10px;
+	border-top-right-radius : 10px;
+	border-top-left-radius : 10px;
+	cursor: pointer;
+}
+
+.containerQuestionText{
+	width: 90%;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 120%;
+	font-weight: 500;
+	float: right;
+}
+
+.containerNumberAnswers{
+	width: 10%;
+	padding-left: 2px;
+	font-size: 150%;
+	font-weight: 700;
+	color: #ec6b17;
+	float: right;
+}
+
+.imageNumberAnswers{
+	width: 90%;
+	max-width: 35px;
+	height: auto;
+}
+
+.containerAnswerText{
+	width: 100%;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 120%;
+	font-weight: 500;
+}
+
+.textOverflowThreeLines{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;  
+}
+
+.containerQuestionPressed{
+	margin-bottom : 55px;
+	margin-top : 55px;
+	-webkit-box-shadow: 5px 26px 23px -10px rgba(77,76,76,0.77);
+	-moz-box-shadow: 5px 26px 23px -10px rgba(77,76,76,0.77);
+	box-shadow: 5px 26px 23px -10px rgba(77,76,76,0.77);
+}
+
+.containerLoading{
+	width: 100%;
+	height: 40px;
+	padding-top:5px;
+	padding-bottom: 5px;
+	color: #515151;
+	font-size: 150%;
+	font-weight: 700;
+}
+
+.containerQuestionFooter{
+	height: auto;
+	width: 100%;
+	cursor: pointer;
+}
+
+.containerSwitchButtons{
+	width: 90%;
+	max-width: 250px; 
+	height: auto;
+	cursor: pointer;
+	padding-top: 15px;
+}
+
+.containerSwitchLeft{
+	width: 50%;
+	height: auto;
+	float: left;
+}
+
+.containerSwitchRight{
+	width: 50%;
+	height: auto;
+	float: right;
+}
+
+.imageSwitchButton{
+	width: 100%;
+	height: auto;
+}
+
+.containerQuestionBody{
+	max-height: auto;
+	width: 100%;
+}
+
+.containerAnswerBody{
+	max-height: auto;
+	width: 100%;
+}
+
+.inputAddAnswer{
+	background-color: #e5e5e4 !important;
+	color: #515151 !important;
+}
+
+.textareaAddAnswer{
+	background-color: #e5e5e4 !important;
+	color: #515151 !important;
+	height: 100px !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.textareaAddQuestion{
+	background-color: #e5e5e4 !important;
+	color: #515151 !important;
+	height: 100px !important;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.textColorBlack{
+	color: #000000;
+}
+
+.textVotes{
+	font-size: 180%;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	color: #ec6b17;
+	font-weight: 700;
+}
+
+.buttonUpDown{
+	font-size: 150%;
+	cursor: pointer;
+	color: #ec6b17;
+}
+
+.buttonUpDownAnswer{
+	font-size: 150%;
+	cursor: pointer;
+	color: #ec6b17;
+}
+
+
+.imgHowDoesItWork_detail{	
+		height: auto;
+		width: 100%;
+		position: center !important;
+}
+
+.imgHowDoesItWork_trigger{
+		height: auto;
+		width: 230px;
+		margin-top: 50px;
+}
+
+.imgHowDoesItWork_trigger:hover{
+		cursor: pointer;
+		cursor: hand;
+}
+
+.padding-top450 {
+		padding-top:450px;
+
+}
+	
+.padding-top150 {
+		padding-top:150px;
+
+}
+
+.padding-top50 {
+		padding-top:50px;
+
+}
+
+.centerVertical {
+		margin-top: 10px;
+	}
+	
+.centerHorizontal {
+		text-align: center;
+	}
+	
+.centerDivHorizontal{
+		margin: 0 auto;
+	
+	}
+	
+.floatLeft{
+		float: left;
+}
+
+.floatRight{
+		float: right;
+
+}
+
+.spacer {
+		height: 75px;
+		width: 100%;
+}
+
+.spacerSmall{
+		height: 10px;
+		width: 100%;
+
+}
+		
+.divider {
+		height: 1px;
+		width: 100%;
+		background-color: #2c2929;
+	}
+	
+.header {
+		background-color: #e49c13;
+		width: 100%;
+		height: 150px; 
+		padding-top: 10px;
+	}
+	
+.logoHeaderMobile{
+	width:120px;
+	height: auto;
+}
+
+.logoHeaderDesktop{
+	width:150px;
+	height: auto;
+	margin-top: -5px;
+}
+
+.containerLogo{
+	width: 120px;
+	margin-top: 10px;
+}
+
+.containerLogo:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.imageArrow{
+	width: 200px;
+	height: auto;
+	position: fixed;
+	z-index: 1000;
+	top: 200px;
+}
+
+.imageArrow:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.imageArrowMobile{
+	width: 200px;
+	height: auto;
+}
+
+.imageArrowMobile:hover{
+	cursor: pointer;
+	cursor: hand;
+}
+
+.containerArrowMobile{
+	width: 200px;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.containerImprint{
+	width: 50px;
+	height: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.imageImprint{
+	width: 50px;
+	height: auto;
+}
+
+.containerMainContent{
+		margin: 0;
+		width: 100%;
+		height: 100%;
+		padding-top: 10px;
+		padding-bottom: 50px;		
+}
+
+.containerMainContentDropDownPadding{
+		padding-top: 500px;
+}
+
+.fontColorGreen{
+		color: #7ac4a7;
+}
+
+.buttonColorGreen{
+		background-color:#7ac4a7;
+		color: #FFFFFF;
+}
+
+.fontColorRed{
+		color: #df2e49;
+}
+
+.headerButton{
+		font-size: 108% !important;
+		margin-top: 22px;
+}
+
+.buttonGreenTextBorderGreen{
+		font-size: 108% !important;
+		margin-top: 22px;
+		color: #64c5a8;
+		border: 2px solid #64c5a8 !important;
+		background-color: #FFFFFF;
+		-webkit-transition: all 0.7s ease; /* Safari and Chrome */
+		-moz-transition: all 0.7s ease; /* Firefox */
+		-ms-transition: all 0.7s ease; /* IE 9 */
+		-o-transition: all 0.7s ease; /* Opera */
+		transition: all 0.7s ease;
+
+}
+
+.buttonGreenTextBorderGreen:hover{
+		color: #FFFFFF !important;
+		background-color: #64c5a8;
+}
+
+.buttonRedTextBorderRed{
+		font-size: 108% !important;
+		margin-top: 22px;
+		color: #f1204c;
+		border: 2px solid #f1204c !important;
+		background-color: #FFFFFF;
+		-webkit-transition: all 0.7s ease; /* Safari and Chrome */
+		-moz-transition: all 0.7s ease; /* Firefox */
+		-ms-transition: all 0.7s ease; /* IE 9 */
+		-o-transition: all 0.7s ease; /* Opera */
+		transition: all 0.7s ease;
+
+}
+
+.buttonRedTextBorderRed:hover{
+		color: #FFFFFF !important;
+		background-color: #f1204c;
+}
+
+.brandLogo{
+		height: auto;
+		width: 185px;
+}
+
+.containerBrandLogo{
+		height: auto;
+		width: 185px;
+		margin-top: -20px;
+}
+
+.containerBrandLogo:hover{
+		cursor: pointer;
+		cursor: hand;
+}
+
+.containerProduct{
+		height: auto;
+		width: 230px;
+		margin-top: 50px;
+
+}
+
+.containerProduct:hover{
+		cursor: pointer;
+		cursor: hand;
+}
+
+.containerProductNameAndRank{
+		height:30px;
+		width: 230px;
+		padding-bottom: 5px;
+		padding-left:7px;
+		padding-right:7px;
+		padding-top:5px;
+		background-color: #ffffff;
+		border-top-left-radius:7px;
+		border-top-right-radius:7px;
+		border-bottom-right-radius:0px;
+		border-bottom-left-radius:0px;
+
+}
+
+.containerPictureButtons{
+		height: auto;
+		width: 230px;
+		background-color: #ffffff;
+		padding-bottom: 40px;
+		
+}
+
+.containerPicture{
+		height:auto;
+		width: 230px;
+		overflow: hidden;
+
+}
+
+.productPicture{
+		height: auto;
+		width: 230px;
+		-webkit-transition: all 0.7s ease; /* Safari and Chrome */
+		-moz-transition: all 0.7s ease; /* Firefox */
+		-ms-transition: all 0.7s ease; /* IE 9 */
+		-o-transition: all 0.7s ease; /* Opera */
+		transition: all 0.7s ease;
+
+}
+
+.productPicture:hover{
+		 -webkit-transform:scale(1.25); /* Safari and Chrome */
+		-moz-transform:scale(1.25); /* Firefox */
+		-ms-transform:scale(1.25); /* IE 9 */
+		-o-transform:scale(1.25); /* Opera */
+		transform:scale(1.25);
+}
+
+.clear{
+	clear: both;
+
+}
+
+.fontColorGreyInfotext{
+	color: #465a77;
+	font-size: 1.0em;	
+}
+
+.fontColorGreyHead{
+	color: #465a77;
+	font-size: 1.7em;
+}
+
+
+.color1Soft{
+	background-color: #84e0c4;
+	color: #ffffff;
+}
+
+.color1Soft:hover {
+	background-color: #71d2b4; 
+	color: #ffffff !important; 
+	} 
+
+.color1Hard{
+	background-color: #64c5a8;
+	color: #ffffff;
+}
+
+.color1Hard:hover {
+	background-color: #4cb193; 
+	color: #ffffff !important; 
+	font: #ffffff;
+	}
+
+.color1Text{
+	color: #64c5a8;
+}
+
+.color2Soft{
+	background-color: #6cca7f;
+	color: #ffffff;
+}
+
+.color2Soft:hover {
+	background-color: #58ba6b; 
+	color: #ffffff !important; 
+	} 
+
+.color2Hard{
+	background-color: #48ad5d;
+	color: #ffffff;
+}
+
+.color2Hard:hover {
+	background-color: #2e9443; 
+	color: #ffffff !important; 
+	font: #ffffff;
+	}
+
+.color2Text{
+	color: #48ad5d;
+}
+
+.color3Soft{
+	background-color: #ff9486;
+	color: #ffffff;
+}
+
+.color3Soft:hover {
+	background-color: #d97467; 
+	color: #ffffff!important;
+	}
+
+.color3Hard{
+	background-color: #ff7b5b;
+	color: #ffffff;
+}
+
+.color3Hard:hover {
+	background-color: #d75837; 
+	color: #ffffff !important; 
+	font: #ffffff;
+	}
+
+.color3Text{
+	color: #ff7b5b;
+}
+
+.color4Soft{
+	background-color: #f54d70;
+	color: #ffffff;
+}
+
+.color4Soft:hover {
+	background-color: #e12e56; 
+	color: #ffffff!important;}
+
+.color4Hard{
+	background-color: #f1204c;
+	color: #ffffff;
+}
+
+.color4Hard:hover {
+	background-color: #db0730; 
+	color: #ffffff !important; 
+	font: #ffffff !important;}
+
+.color4Text{
+	color: #f1204c;
+}
+
+.paddingText{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.closeButton{
+	margin: 15px;
+}
+
+.containerTextStripes{
+	width: 100%;
+	height: 30px;
+}
+
+.stripesGreenLogIn{
+	width: 92px;
+	height: 3px;
+	margin-top: 14px;
+	background-color: #36a8a4;	
+}
+
+.stripesGreenSignUp{
+	width: 67px;
+	height: 3px;
+	margin-top: 14px;
+	background-color: #36a8a4;	
+
+}
+
+.textModalBig{
+	font-size: 150%;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+.textModalHalfBig{
+	font-size: 120%;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+.textModalNormal{
+	font-size: 100%;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 10px;
+}
+
+.alertGreen{
+	padding: 15px;
+	color: #36a8a4;
+
+}
+
+.inputModal{
+	width: 240px !important;
+	margin-bottom: 5px !important;
+	border-radius: 5px !important;
+}
+
+#containerFilter{
+	width: 100%;
+	margin-top: -240px;
+	position: fixed;
+	z-index: 900;
+	background-color: #cecccc;
+}
+
+.containerCategories{
+	width: 250px;
+	height: 255px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	padding: 15px;
+	background-color: #ffffff;
+
+}
+
+.categoriesTag{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #36a8a4;
+	margin-top: -35px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+.buttonCategorie{
+	margin-top: 10px;
+	width: 220px;
+
+}
+
+.inputUpload{
+	width:100% !important;
+}
+
+
+.bigPictureProductInfoModal{
+	width: 100%;
+
+}
+
+.containerBigPictureProductInfoModal{
+	max-height: 280px;
+	width: 100%;
+	overflow: hidden;
+	overflow-y: auto;
+
+}
+
+.smallPictureProductInfoModal{
+	width: 100%;
+
+}
+
+.containerSmallPictureProductInfoModal{
+	max-height: 60px;
+	width: 21%;
+	overflow: hidden;
+	
+}
+
+.containerSmallPictureProductInfoModalMiddleLeft{
+	max-height: 60px;
+	width: 21%;
+	overflow: hidden;
+	margin-left: 6%;
+	margin-right: 2%;
+
+}
+
+.containerSmallPictureProductInfoModalMiddleRight{
+	max-height: 60px;
+	width: 21%;
+	overflow: hidden;
+	margin-left: 2%;
+	margin-right: 6%;
+
+}
+
+.containerSmallPicturesProductInfoModal{
+	margin-top: 15px;
+	max-height: 60px;
+	width: 100%;
+	overflow:hidden;
+	
+}
+
+.containerTopRightProductInfoModal{
+	max-height: 280px;
+	width: 100%;
+
+}
+
+.containerBottomRightProductInfoModal{
+	max-height: 60px;
+	width: 100%;
+	margin-top: 15px;
+
+}
+
+.containerHalfVerticalProductInfoModal{
+	min-height:50%;
+	height: 50%;
+	width: 100%;
+
+}
+
+.lineHorizontal{
+	height: 1px;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: light-grey;
+}
+
+.textRankPrizeProductInfoModal{
+	font-size: 280%;
+	margin-top: 20px;
+	
+}
+
+.textRankOrPrizeProductInfoModal{
+	font-size: 70%;
+	margin-top: -12px;
+	
+}
+
+.buttonTopProductInfoModal{
+	margin-top: 10px;
+	width: 100%;
+	font-size: 70% !important;
+	
+}
+
+.infoTextProductInfoModal{
+	width: 100%;
+	font-size: 70%;
+
+	
+}
+
+.buttonBottomProductInfoModal{
+	width: 100%;
+	font-size: 70% !important;
+	margin-bottom: 5px !important;
+	
+}
+
+.socialButton{
+	margin-top: 5px;
+	width: 100%;
+}
+
+.socialButton:hover{
+	color: #FFFFFF !important;
+}
+
+.socialPageButton{
+	
+}
+
+.socialPageButton:hover{
+	color: #FFFFFF !important;
+}
+
+.dropdown-menu {
+	min-width: 200px;
+}
+.dropdown-menu.columns-2 {
+	min-width: 400px;
+}
+.dropdown-menu.columns-3 {
+	min-width: 600px;
+}
+.dropdown-menu li a {
+	padding: 5px 15px;
+	font-weight: 300;
+}
+.multi-column-dropdown {
+	list-style: none;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: #333;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: #262626;
+	background-color: #f5f5f5;
+}
+ 
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+}
+
+
+.btn-outline {
+    background-color:transparent !important;
+    color: inherit;
+    transition: all .5s;
+    font-style: #79c4a7!important;
+    
+}
+
+.btn-success.btn-outline {
+    color: #79c4a7;
+    outline-color: #79c4a7!important;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+    outline-color: #d9534f!important;
+}
+
+
+.btn-success.btn-outline:hover
+ {
+     background-color: #79c4a7 !important;
+    outline-color: #79c4a7!important;
+}
+
+.btn-danger.btn-outline:hover {
+    background-color: #d9534f !important;
+    outline-color: #d9534f!important;
+}
+
+
+.containerImpringTacPrivacyPolicyContact{
+		margin: 0 auto;
+		font-style: #909090 !important;
+		width: 100%;
+		height: 100%;
+		margin-top: 2em;
+		margin-bottom: 2em;
+		
+}
+
+.containerInfoBoxDesktop{
+	width: 100%;
+	height: 30px;
+}
+
+..containerInfoBoxMobile{
+	width: 100%;
+	height: 50px;
+}
+
+.containerInfoBoxContent{
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+
+
+
+
+
+
+	
+
