@@ -42,7 +42,17 @@ jQuery(document).ready(function() {
         "Clean your keyboard. Pretend that some key isn't working anymore.",
         "Pretend to be talking to a customer on the phone. Make sure to sound like it's going really well and make your colleagues notice.",
         "Make up a project and start telling everyone about it.",
-        "Inform yourself about how your company is tracking you (internet, telephone) and make sure to avoid these mechanisms."
+        "Inform yourself about how your company is tracking you (internet, telephone) and make sure to avoid these mechanisms.",
+        "Install or enable a virtual desktop to be able to switch to netral content fast.",
+        "Move your monitor so that it's not visible to others. Say you have to do this, because of reflections and sunlight.",
+        "Ask others in your team for their progress. Say the reason is that you're dependent on them.",
+        "Instead of doing a phone call, just walk to your colleague next time. This is more relaxing and takes more time.",
+        "Have a second jacket in your workplace so that people won't notice if you're away",
+        "Go to the toilet. Don't forget to take your phone with you.",
+        "Drink a lot. Going to the water dispenser and going to the toilet takes more time than you think.",
+        "Always have several opened books on your desk and pretend to be looking things up.",
+        "Get a new cup of coffee. Offer your colleagues to also bring them one.",
+        "Open up a random drawer and pretend to be looking for something."
     ];
 
 	var timesGotTask = 0;
